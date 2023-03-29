@@ -1,0 +1,8 @@
+name: "Test VSCode extension"
+
+on: ['push']
+jobs:
+    Try-Actions-Extension:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Test"
